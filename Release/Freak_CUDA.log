@@ -1,0 +1,19 @@
+﻿Build started 1/7/2016 8:03:33 PM.
+     1>Project "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Freak_CUDA.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\Freak_CUDA.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\Freak_CUDA.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\Freak_CUDA.lib" /MACHINE:X86 /SAFESEH Release\kernel.cu.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         Freak_CUDA.vcxproj -> E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\Freak_CUDA.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 file(s) copied.
+     1>Done Building Project "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Freak_CUDA.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.81

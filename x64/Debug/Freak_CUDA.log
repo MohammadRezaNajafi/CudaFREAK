@@ -1,0 +1,74 @@
+﻿Build started 2/17/2016 6:35:02 AM.
+     1>Project "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Freak_CUDA.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Administrator.Asus\AppData\Local\Temp\tmp52d6e9fa283f43b8a6a4a5a67174c4c4.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\kernel.cu"
+         
+         E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\kernel.cu.obj "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\kernel.cu" 
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(337): warning : variable "pointsValue" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(338): warning : variable "thetaIdx" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(339): warning : variable "direction0" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(340): warning : variable "direction1" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(667): warning : variable "imagecols" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(799): warning : variable "imagecols" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(866): warning : variable "x_sh" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(866): warning : variable "y_sh" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(869): warning : variable "ang_sh" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(989): warning : variable "message" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1104): warning : variable "error" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1115): warning : variable "point_test" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(337): warning : variable "pointsValue" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(338): warning : variable "thetaIdx" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(339): warning : variable "direction0" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(340): warning : variable "direction1" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(667): warning : variable "imagecols" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(799): warning : variable "imagecols" was declared but never referenced
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(866): warning : variable "x_sh" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(866): warning : variable "y_sh" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(869): warning : variable "ang_sh" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(989): warning : variable "message" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1104): warning : variable "error" was set but never used
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1115): warning : variable "point_test" was set but never used
+         kernel.cu
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(202): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(203): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(204): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(207): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(295): warning C4244: 'initializing' : conversion from 'const float' to 'const int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(296): warning C4244: 'initializing' : conversion from 'const float' to 'const int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(336): warning C4244: 'initializing' : conversion from 'const double' to 'const float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(339): warning C4101: 'direction0' : unreferenced local variable
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(337): warning C4101: 'pointsValue' : unreferenced local variable
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(340): warning C4101: 'direction1' : unreferenced local variable
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(395): warning C4244: 'initializing' : conversion from 'const double' to 'const float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(443): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(470): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(523): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(546): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(987): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1116): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1117): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1125): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1126): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1213): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1220): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:/MS/ms Project/20_Freak_CUDA - Cleaning Code/Freak_CUDA/kernel.cu(1240): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\Freak_CUDA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\Freak_CUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\Freak_CUDA.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         Freak_CUDA.vcxproj -> E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\Freak_CUDA.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 file(s) copied.
+     1>Done Building Project "E:\MS\ms Project\20_Freak_CUDA - Cleaning Code\Freak_CUDA\Freak_CUDA.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.71
